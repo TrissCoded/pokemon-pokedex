@@ -9,3 +9,6 @@ This project is a RESTful Pokémon Api for searching and viewing different Poké
 - Lists all game versions a Pokémon has appeared in
 - Plays Pokémon theme song on load, with a toggle button to play/pause
 - Smooth transitions & styling inspired by Pokémon design
+
+## Visit Live
+Check it out live [here](https://generationpokedex.netlify.app/)
