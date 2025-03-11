@@ -1,0 +1,159 @@
+/* default background image */
+body {
+    font-family: 'Mulish', sans-serif;
+    text-align: center;
+    background: url('pokemonimage.jpg') no-repeat center center fixed;
+    background-size: cover;
+    transition: background 0.5s ease-in-out;
+}
+
+/* Main container */
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: rgba(233, 233, 233, 0.9);
+    border-radius: 1px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Page Title */
+h1 {
+    font-family: 'Pokemon Solid', sans-serif;
+    color: #4600f6;
+    font-size: 2.5em;
+    text-shadow: 4px 4px 0px #eeff00, 6px 6px 0px #000368;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-family: 'comic sans ms', sans-serif;
+    color: #006507;
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+/* Search bar  */
+input {
+    padding: 10px;
+    width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    background: #cbcac6;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #03b51d;
+}
+
+/*  the Play/Pause Button */
+#toggleMusicButton {
+    font-size: 18px;
+    padding: 8px;
+    border: none;
+    background: #333;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.3s ease-in-out;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+#toggleMusicButton:hover {
+    background: #555;
+}
+
+/* Pokémon Card  */
+.pokemon-card {
+    width: 280px;
+    background: linear-gradient(to bottom, #ff000096, #c5d300);
+    border-radius: 15px;
+    border: 3px solid #ffffff;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    padding: 15px;
+    margin: 20px auto;
+    position: relative;
+}
+
+/* Pokémon Name  */
+.pokemon-card h2 {
+    font-family: 'Arial', sans-serif;
+    color: white;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+/* Pokémon Image  */
+.pokemon-card img {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    border: 2px solid #ddd;
+}
+
+/* Type Badge */
+.type-badge {
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 8px;
+    margin: 5px;
+    text-transform: capitalize;
+}
+
+/* Pokémon Type Colors */
+.fire { background: #F08030; }     
+.water { background: #6890F0; }    
+.grass { background: #78C850; }    
+.electric { background: #F8D030; } 
+.psychic { background: #F85888; }  
+.ice { background: #98D8D8; }      
+.fighting { background: #C03028; } 
+.poison { background: #A040A0; }   
+.ground { background: #E0C068; }   
+.flying { background: #A890F0; }   
+.bug { background: #A8B820; }      
+.rock { background: #B8A038; }     
+.ghost { background: #705898; }    
+.dragon { background: #7038F8; }   
+.dark { background: #705848; }     
+.steel { background: #B8B8D0; }    
+.fairy { background: #EE99AC; }   
+.normal { background: #A8A878; }   
+
+/*  "Appears In" List */
+#pokemonGames {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    color: rgb(0, 0, 0); 
+    font-weight: bold;
+    font-size: 1em;
+}
